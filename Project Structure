@@ -1,0 +1,17 @@
+gke-devops-project/
+│
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── backend.tf
+│
+├── app/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── k8s/
+│   ├── deployment.yaml
+│   └── service.yaml
+│
+└── Jenkinsfile
