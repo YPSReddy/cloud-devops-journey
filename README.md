@@ -3,8 +3,4 @@ As a Cloud DevOps &amp; Platform SRE supporting the GTIHUD repository, I'm respo
 
 # High_Level_Architecture
 
-Git Repo → Jenkins Pipeline → Docker Build → GCR
-                                      ↓
-                                 Kubernetes (GKE)
-                                      ↓
-                               LoadBalancer Service
+Git Repo → Jenkins Pipeline → Docker Build → GCR → Kubernetes (GKE) → LoadBalancer Service           
